@@ -1,0 +1,108 @@
+QMainWindow
+{
+background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:0, y2:0, stop:0 rgba(81, 0, 135, 255), stop:0.727447 rgba(41, 61, 132, 235), stop:1 rgba(155, 79, 165, 255));
+}
+QDialog
+{
+background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:0, y2:0, stop:0 rgba(81, 0, 135, 255), stop:0.727447 rgba(41, 61, 132, 235), stop:1 rgba(155, 79, 165, 255));
+}
+QFrame
+{
+background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:0, y2:0, stop:0 rgba(81, 0, 135, 255), stop:0.27447 rgba(41, 61, 132, 235), stop:1 rgba(155, 79, 165, 255));
+}
+QLabel#Label
+{
+background-color:rgba(255,255,255,30);
+border: 1px solid rgba(255,255,255,40);
+border-radius: 7px;
+color : white;
+font-weight bold;
+font: 15pt "Sitka Text";
+}
+ClicableLabel#ClicableLabel
+{
+font: 30pt "Sitka Text";
+background-color:rgba(255,255,255,30);
+border: 1px solid rgba(255,255,255,40);
+border-radius: 7px;
+color : white;
+font-weight bold;
+}
+QPushButton#Button
+{
+background-color:rgba(255,255,255,30);
+border: 1px solid rgba(255,255,255,40);
+border-radius: 40px;
+color:white;
+border-radius: 7px;
+font: 20pt "Sitka Text";
+}
+QPushButton#timerButton
+{
+background-color:rgba(255,255,255,30);
+border: 1px solid rgba(255,255,255,40);
+border-radius: 40px;
+color:white;
+border-radius: 7px;
+font: 12pt "Sitka Text";
+}
+QLabel#winnerLabel
+{
+font: 30pt "Sitka Text";
+background-color:rgba(255,255,255,30);
+border: 1px solid rgba(255,255,255,40);
+border-radius: 40px;
+color:white;
+border-radius: 7px;
+}
+QLabel#loserLabel
+{
+font: 20pt "Sitka Text";
+background-color:rgba(255,255,255,30);
+border: 1px solid rgba(255,255,255,40);
+border-radius: 40px;
+color:white;
+border-radius: 7px;
+}
+QPushButton#styleChoice_1
+{
+font: 20pt "Sitka Text";
+    border-radius: 7px;
+    color: black;
+    background-color:rgba(169, 255, 255, 1);
+    border: 3px solid rgba(85, 255, 255,255);
+}
+QPushButton#styleChoice_2
+{
+font: 20pt "Times New Roman";
+border-radius: 7px;
+color: black;
+font-weight: bold;
+background-color:rgba(47, 47, 47, 0.99);
+border: 3px solid rgba(0, 0, 0,255);
+}
+QPushButton#styleChoice_3
+{
+background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:0, y2:0, stop:0 rgba(161,36, 34, 255), stop:0.427447 rgba(130,76, 84, 235), stop:1 rgba(99,56,168, 255));
+border: 1px solid rgba(255,255,255,40);
+border-radius: 40px;
+color:white;
+border-radius: 7px;
+font: 20pt "Sitka Text";
+}
+QPushButton#styleChoice_4
+{
+background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:0, y2:0, stop:0 rgba(81, 0, 135, 255), stop:0.727447 rgba(41, 61, 132, 235), stop:1 rgba(155, 79, 165, 255));
+border: 1px solid rgba(255,255,255,40);
+border-radius: 40px;
+color:white;
+border-radius: 7px;
+font: 20pt "Sitka Text";
+}
+QPushButton#styleChoice_5
+{
+font: 20pt "Times New Roman";
+border: 1px solid rgba(0, 0, 0,255);
+border-radius: 7px;
+background-color:rgba(255, 255, 255, 1);
+}

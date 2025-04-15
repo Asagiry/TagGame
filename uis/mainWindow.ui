@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>853</width>
+    <height>584</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color :rgba(85, 255, 255,30)
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="gridFrame">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>30</y>
+      <width>522</width>
+      <height>522</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(255,255,255,30);
+border:3px solid rgba(85, 255, 255,255);
+ color : white;
+ font-weight bold;
+ font-size :15pt;</string>
+    </property>
+    <layout class="QGridLayout" name="area">
+     <item row="2" column="0">
+      <widget class="QLabel" name="chip_9">
+       <property name="styleSheet">
+        <string notr="true">font: 20pt &quot;Sitka Text&quot;;
+border: 1px solid rgba(255,255,255,40);
+border-radius: 7px;
+color : Black;
+font-weight bold;
+background-color :rgba(85, 255, 255,120)
+</string>
+       </property>
+       <property name="text">
+        <string>9</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QLabel" name="chip_11">
+       <property name="styleSheet">
+        <string notr="true">font: 20pt &quot;Sitka Text&quot;;
+border: 1px solid rgba(255,255,255,40);
+border-radius: 7px;
+color : Black;
+font-weight bold;
+background-color :rgba(85, 255, 255,120)
+</string>
+       </property>
+       <property name="text">
+        <string>11</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="chip_13">
+       <property name="styleSheet">
+        <string notr="true">font: 20pt &quot;Sitka Text&quot;;
+border: 1px solid rgba(255,255,255,40);
+border-radius: 7px;
+color : Black;
+font-weight bold;
+background-color :rgba(85, 255, 255,120)
+</string>
+       </property>
+       <property name="text">
+        <string>13</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="chip_5">
+       <property name="styleSheet">
+        <string notr="true">font: 20pt &quot;Sitka Text&quot;;
+border: 1px solid rgba(255,255,255,40);
+border-radius: 7px;
+color : Black;
+font-weight bold;
+background-color :rgba(85, 255, 255,120)
+</string>
+       </property>
+       <property name="text">
+        <string>5</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QLabel" name="chip_7">
+       <property name="styleSheet">
+        <string notr="true">font: 20pt &quot;Sitka Text&quot;;
+border: 1px solid rgba(255,255,255,40);
+border-radius: 7px;
+color : Black;
+font-weight bold;
+background-color :rgba(85, 255, 255,120)
+</string>
+       </property>
+       <property name="text">
+        <string>7</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QLabel" name="chip_4">
+       <property name="styleSheet">
+        <string notr="true">font: 20pt &quot;Sitka Text&quot;;
+border: 1px solid rgba(255,255,255,40);
+border-radius: 7px;
+color : Black;
+font-weight bold;
+background-color :rgba(85, 255, 255,120)
+</string>
+       </property>
+       <property name="text">
+        <string>4</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="chip_1">
+       <property name="styleSheet">
+        <string notr="true">font: 20pt &quot;Sitka Text&quot;;
+border: 1px solid rgba(255,255,255,40);
+border-radius: 7px;
+color : Black;
+font-weight bold;
+background-color :rgba(85, 255, 255,120)
+</string>
+       </property>
+       <property name="text">
+        <string>1</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <widget class="QLabel" name="chip_8">
+       <property name="styleSheet">
+        <string notr="true">font: 20pt &quot;Sitka Text&quot;;
+border: 1px solid rgba(255,255,255,40);
+border-radius: 7px;
+color : Black;
+font-weight bold;
+background-color :rgba(85, 255, 255,120)
+</string>
+       </property>
+       <property name="text">
+        <string>8</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="3">
+      <widget class="QLabel" name="chip_12">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 20pt &quot;Sitka Text&quot;;
+border: 1px solid rgba(255,255,255,40);
+border-radius: 7px;
+color : Black;
+font-weight bold;
+background-color :rgba(85, 255, 255,120)
+</string>
+       </property>
+       <property name="text">
+        <string>12</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QLabel" name="chip_3">
+       <property name="styleSheet">
+        <string notr="true">font: 20pt &quot;Sitka Text&quot;;
+border: 1px solid rgba(255,255,255,40);
+border-radius: 7px;
+color : Black;
+font-weight bold;
+background-color :rgba(85, 255, 255,120)
+</string>
+       </property>
+       <property name="text">
+        <string>3</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QLabel" name="chip_15">
+       <property name="styleSheet">
+        <string notr="true">font: 20pt &quot;Sitka Text&quot;;
+border: 1px solid rgba(255,255,255,40);
+border-radius: 7px;
+color : Black;
+font-weight bold;
+background-color :rgba(85, 255, 255,120)
+</string>
+       </property>
+       <property name="text">
+        <string>15</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="chip_2">
+       <property name="styleSheet">
+        <string notr="true">font: 20pt &quot;Sitka Text&quot;;
+border: 1px solid rgba(255,255,255,40);
+border-radius: 7px;
+color : Black;
+font-weight bold;
+background-color :rgba(85, 255, 255,120)
+</string>
+       </property>
+       <property name="text">
+        <string>2</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLabel" name="chip_6">
+       <property name="styleSheet">
+        <string notr="true">font: 20pt &quot;Sitka Text&quot;;
+border: 1px solid rgba(255,255,255,40);
+border-radius: 7px;
+color : Black;
+font-weight bold;
+background-color :rgba(85, 255, 255,120)
+</string>
+       </property>
+       <property name="text">
+        <string>6</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLabel" name="chip_10">
+       <property name="styleSheet">
+        <string notr="true">font: 20pt &quot;Sitka Text&quot;;
+border: 1px solid rgba(255,255,255,40);
+border-radius: 7px;
+color : Black;
+font-weight bold;
+background-color :rgba(85, 255, 255,120)
+</string>
+       </property>
+       <property name="text">
+        <string>10</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLabel" name="chip_14">
+       <property name="styleSheet">
+        <string notr="true">font: 20pt &quot;Sitka Text&quot;;
+border: 1px solid rgba(255,255,255,40);
+border-radius: 7px;
+color : Black;
+font-weight bold;
+background-color :rgba(85, 255, 255,120)
+</string>
+       </property>
+       <property name="text">
+        <string>14</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>510</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 20pt &quot;Sitka Text&quot;;
+border: 1px solid rgba(255,255,255,40);
+border-radius: 7px;
+color : Black;
+font-weight bold;
+background-color :rgba(85, 255, 255,120)
+</string>
+    </property>
+    <property name="text">
+     <string>Перемешать</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

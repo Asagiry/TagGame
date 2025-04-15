@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>562</width>
+    <height>397</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color :rgba(85, 255, 255,30)
+</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>501</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20pt &quot;Sitka Text&quot;;
+border: 1px solid rgb(0, 0, 0);
+border-radius: 7px;
+color : Black;
+font-weight bold;
+background-color :rgba(85, 255, 255,120)
+</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Shape::NoFrame</enum>
+   </property>
+   <property name="text">
+    <string>Добро пожаловать в игру Пятнашки</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="startNewButton">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>170</y>
+     <width>221</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20pt &quot;Sitka Text&quot;;
+border: 1px solid rgb(0, 0, 0);
+border-radius: 7px;
+color : Black;
+font-weight bold;
+background-color :rgba(85, 255, 255,120)
+</string>
+   </property>
+   <property name="text">
+    <string>Начать новую</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="startSaveButton">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>280</y>
+     <width>341</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20pt &quot;Sitka Text&quot;;
+border: 1px solid rgb(0, 0, 0);
+border-radius: 7px;
+color : Black;
+font-weight bold;
+background-color :rgba(85, 255, 255,120)
+</string>
+   </property>
+   <property name="text">
+    <string>Запустить сохраненную</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
