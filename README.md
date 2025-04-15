@@ -25,11 +25,11 @@
 - Выбор таймера
   ![Режим с таймером](Images/Timer.jpg)
 
-- Победа 
+- Победа
   ![Победа](Images/Win.jpg)
 
 - Победа с таймером 
   ![Победа с таймером](Images/WinTimer.jpg)
 
 - Выбор стиля интерфейса  
-  ![Темы](Images/Styles.jpg)
+  ![Темы](Images/Style.jpg)
