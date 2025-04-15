@@ -23,7 +23,7 @@
   ![Главное меню](Images/MainWindow.jpg)
 
 - Выбор таймера
-  ![Режим с таймером](Images/Timer.jpg)
+  ![Выбор таймера](Images/Timer.jpg)
 
 - Победа
   ![Победа](Images/Win.jpg)
